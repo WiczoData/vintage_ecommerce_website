@@ -1,0 +1,17 @@
+/node_modules   
+/dist   
+/coverage
+.env
+.env.test
+.env.production
+.env.development
+.env.local
+.env.staging
+.env.example
+.env.example.test
+.env.example.production
+.env.example.development
+.env.example.local
+.env.example.staging
+.DS_Store
+.git

@@ -39,32 +39,7 @@ npm run dev
 
 4. Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce.
 
-## Struktura Projektu
 
-\`\`\`
-vintage-treasures/
-├── app/                    # Główne komponenty aplikacji (Next.js App Router)
-│   ├── about/              # Strona "O Nas"
-│   ├── checkout/           # Proces realizacji zamówienia
-│   ├── products/           # Strona produktów i szczegóły produktu
-│   ├── globals.css         # Globalne style CSS
-│   ├── layout.tsx          # Główny układ aplikacji
-│   └── page.tsx            # Strona główna
-├── components/             # Komponenty wielokrotnego użytku
-│   ├── cart-drawer.tsx     # Komponent koszyka
-│   ├── cart-provider.tsx   # Provider kontekstu koszyka
-│   ├── featured-products.tsx # Sekcja polecanych produktów
-│   ├── footer.tsx          # Stopka strony
-│   ├── header.tsx          # Nagłówek strony
-│   ├── newsletter-signup.tsx # Formularz newslettera
-│   └── ui/                 # Komponenty UI (shadcn)
-├── hooks/                  # Niestandardowe hooki React
-├── lib/                    # Funkcje pomocnicze
-├── public/                 # Statyczne zasoby
-│   └── images/             # Obrazy
-├── przeczytajmnie.md       # Dokumentacja projektu (ten plik)
-└── tailwind.config.ts      # Konfiguracja Tailwind CSS
-\`\`\`
 
 ## Użytkowanie
 
